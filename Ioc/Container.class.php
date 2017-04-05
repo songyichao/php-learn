@@ -1,14 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: MIOJI
- * Date: 2017/4/5
- * Time: 上午8:56
- */
-
-namespace Ioc;
-
-require_once 'Traveller.php';
 
 class Container
 {
@@ -129,6 +119,41 @@ class Container
     }
 }
 
+interface Visit
+{
+    public function go();
+}
+
+class Car implements Visit
+{
+
+    public function go()
+    {
+        // TODO: Implement go() method.
+        echo 'drive car to Tibet';
+    }
+}
+
+class Leg implements Visit
+{
+
+    public function go()
+    {
+        // TODO: Implement go() method.
+        echo 'walt to Tibet';
+    }
+}
+
+class Train implements Visit
+{
+
+    public function go()
+    {
+        // TODO: Implement go() method.
+        echo 'go to Tibet by train';
+    }
+}
+
 class Traveller
 {
     protected $trafficTool;
@@ -143,3 +168,12 @@ class Traveller
         $this->trafficTool->go();
     }
 }
+
+$app = new Container();
+
+$app->bind('Visit', 'Train');
+$app->bind('traveller', 'Traveller');
+
+$tra = $app->make('traveller');
+
+$tra->visitTibet();
