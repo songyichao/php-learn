@@ -177,3 +177,5 @@ $app->bind('traveller', 'Traveller');
 $tra = $app->make('traveller');
 
 $tra->visitTibet();
+
+var_dump(intval(-1));
