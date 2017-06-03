@@ -2,6 +2,7 @@
 
 trait Geocodeable
 {
+
     protected $address;
 
     protected $geocoder;

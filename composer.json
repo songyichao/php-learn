@@ -1,0 +1,10 @@
+{
+    "name": "yichaosong/php-learn",
+    "authors": [
+        {
+            "name": "songyichao",
+            "email": "songyichao74@gmail.com"
+        }
+    ],
+    "require": {}
+}
