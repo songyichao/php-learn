@@ -34,3 +34,16 @@ $timezone = new DateTimeZone('America/New_York');
 $datetime = new DateTime('2014-08-20', $timezone);
 $datetime->setTimezone(new DateTimeZone('Asia/Hong_Kong'));
 echo $datetime->getTimestamp();
+echo '<br>';
+
+
+//DatePeriod  迭代器
+
+$start = new DateTime();
+$interval = new DateInterval('P2W');
+$period = new DatePeriod($start, $interval, 3, DatePeriod::EXCLUDE_START_DATE);
+
+foreach ($period as $item) {
+    echo $item->format('Y-m-d H:i:s'), PHP_EOL;
+}
+
