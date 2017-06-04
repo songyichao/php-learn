@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20d7eb20-3762-4e3e-b529-7fad35de59d5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ModernPHP/Filter/Filter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ModernPHP/Filter/Password.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ModernPHP/Date/Date.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ModernPHP/Generator/NumberGenerator.php" afterPath="$PROJECT_DIR$/ModernPHP/Generator/NumberGenerator.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,19 +22,6 @@
               <folding>
                 <element signature="e#188#647#0#PHP" expanded="true" />
                 <element signature="e#219#645#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Leg.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Factory/Leg.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-              <folding>
-                <element signature="e#141#279#0#PHP" expanded="true" />
-                <element signature="e#175#277#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,11 +112,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Password.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Password.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ModernPHP/Filter/Password.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <state relative-caret-position="308">
+              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Date.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ModernPHP/Date/Date.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="582">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -171,6 +166,7 @@
         <option value="$PROJECT_DIR$/ModernPHP/Generator/NumberGenerator.php" />
         <option value="$PROJECT_DIR$/ModernPHP/Filter/Filter.php" />
         <option value="$PROJECT_DIR$/ModernPHP/Filter/Password.php" />
+        <option value="$PROJECT_DIR$/ModernPHP/Date/Date.php" />
       </list>
     </option>
   </component>
@@ -218,18 +214,6 @@
               <item name="php-learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="php-learn" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="ModernPHP" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="php-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php-learn" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ModernPHP" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Filter" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="php-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php-learn" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ModernPHP" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Generator" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -339,12 +323,12 @@
       <updated>1491203331171</updated>
       <workItem from="1491203332665" duration="3020000" />
       <workItem from="1491353715053" duration="6900000" />
-      <workItem from="1496361216745" duration="7021000" />
+      <workItem from="1496361216745" duration="9112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18548000" />
+    <option name="totallyTimeSpent" value="20639000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -382,16 +366,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Factory/Visit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="15" />
-          <folding>
-            <element signature="e#114#159#1#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Factory/Train.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -819,8 +793,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ModernPHP/Filter/Password.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="308">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ModernPHP/Date/Date.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
