@@ -34,7 +34,11 @@ class GraphicProduct implements Product
     public function getProperties()
     {
         // TODO: Implement getProperties() method.
-        $this->mfg_product = 'graphic';
+        $this->mfg_product = "<!doctype html><html><head><meta charset='UTF-8'>";
+        $this->mfg_product .= "<title>Map Factory</title>";
+        $this->mfg_product .= "</head><body>";
+        $this->mfg_product .= "<img src='screenshot.png' width='500', height='500'>";
+        $this->mfg_product .= "</body></html>";
 
         return $this->mfg_product;
     }

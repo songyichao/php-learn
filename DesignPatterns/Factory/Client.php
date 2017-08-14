@@ -26,6 +26,7 @@ class Client
 {
     private $some_graphic_object;
     private $some_text_object;
+    private $country_factory;
 
     /**
      * 构造方法
@@ -34,9 +35,12 @@ class Client
      */
     public function __construct()
     {
-        $this->some_graphic_object = new GraphicFactory();
-        echo $this->some_graphic_object->startFactory(), '<br/>';
-        $this->some_text_object = new TextFactory();
-        echo $this->some_text_object->startFactory(), '<br/>';
+//        $this->some_graphic_object = new GraphicFactory();
+//        echo $this->some_graphic_object->startFactory(), '<br/>';
+//        $this->some_text_object = new TextFactory();
+//        echo $this->some_text_object->startFactory(), '<br/>';
+        $this->country_factory = new CountryFactory();
+        echo $this->country_factory->doFactory(new TextProduct());
+
     }
 }

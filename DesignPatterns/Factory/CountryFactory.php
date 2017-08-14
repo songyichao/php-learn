@@ -1,6 +1,6 @@
 <?php
 /**
- * Creator接口
+ * Country工厂类
  *
  * @category   Learn
  * @package    PSR
@@ -13,7 +13,7 @@
 namespace DesignPatterns\Factory;
 
 /**
- * Creator接口 抽象对象做接口
+ * Country工厂类
  *
  * @category   Learn
  * @package    PSR
@@ -22,9 +22,10 @@ namespace DesignPatterns\Factory;
  * @license    GPL https://songyichao.com
  * @link       https://songyichao.com
  */
-
-abstract Class Creator
+class CountryFactory extends Creator
 {
+    private $country;
+
     /**
      * 抽象方法
      *
@@ -32,18 +33,10 @@ abstract Class Creator
      *
      * @return mixed
      */
-    protected abstract function factoryMethod(Product $product);
-
-    /**
-     * 返回产品对象
-     *
-     * @return mixed
-     */
-    public function doFactory($product_now)
+    protected function factoryMethod(Product $product)
     {
-
-        $mfg = $this->factoryMethod($product_now);
-
-        return $mfg;
+        // TODO: Implement factoryMethod() method.
+        $this->country = $product;
+        return $this->country->getProperties();
     }
 }

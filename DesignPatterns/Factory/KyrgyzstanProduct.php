@@ -1,6 +1,6 @@
 <?php
 /**
- * 文本
+ * 产品实现类
  *
  * @category   Learn
  * @package    PSR
@@ -13,7 +13,7 @@
 namespace DesignPatterns\Factory;
 
 /**
- * 文本
+ * 产品实现类
  *
  * @category   Learn
  * @package    PSR
@@ -22,10 +22,9 @@ namespace DesignPatterns\Factory;
  * @license    GPL https://songyichao.com
  * @link       https://songyichao.com
  */
-class TextProduct implements Product
+class KyrgyzstanProduct implements Product
 {
-
-    private $mfgProduct;
+    private $mfg_product;
 
     /**
      * 获取特性
@@ -35,23 +34,13 @@ class TextProduct implements Product
     public function getProperties()
     {
         // TODO: Implement getProperties() method.
-        $this->mfgProduct = <<<MALI
-        <!doctype html>
-        <html xmlns="http://www.w3.org/1999/html"><head>
-        <style type="text/css">
-        header{
-            color: #900;
-            font-weight: bold;
-            font-size: 24px;
-        }
-        </style>
-        <meta charset="UTF-8"></head>
-        <header>Mail</header>
-        <body>
-        <p>我是一段文本</p>
-        </body></html>
-MALI;
+        $this->mfg_product = "<!doctype html><html><head><meta charset='UTF-8'>";
+        $this->mfg_product .= "<title>Map Factory</title>";
+        $this->mfg_product .= "</head><body>";
+        $this->mfg_product .= "<img src='screenshot.png' width='500', height='500'>";
+        $this->mfg_product .= "<p>我是一段文本</p>";
+        $this->mfg_product .= "</body></html>";
 
-        return $this->mfgProduct;
+        return $this->mfg_product;
     }
 }
