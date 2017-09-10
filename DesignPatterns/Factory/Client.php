@@ -41,6 +41,5 @@ class Client
 //        echo $this->some_text_object->startFactory(), '<br/>';
         $this->country_factory = new CountryFactory();
         echo $this->country_factory->doFactory(new TextProduct());
-
     }
 }
