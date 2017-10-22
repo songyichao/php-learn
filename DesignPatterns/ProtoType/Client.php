@@ -33,7 +33,10 @@ class Client
         $this->update_clone_fly->wing_beat = '220';
         $this->update_clone_fly->unit_eyes = '750';
         $this->update_clone_fly->fecundity = '92';
-
+        //通过类型提示方法发送
+        $this->showFly($this->c1_fly);
+        $this->showFly($this->c2_fly);
+        $this->showFly($this->update_clone_fly);
     }
 
     public function showFly(IProtoType $fly)
