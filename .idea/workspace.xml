@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20d7eb20-3762-4e3e-b529-7fad35de59d5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/ProtoTypeOOP/Client.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/ProtoTypeOOP/Engineering.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/ProtoTypeOOP/IAcmeProtoType.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/ProtoTypeOOP/Management.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/ProtoTypeOOP/Marketing.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/ProtoTypeOOP/index.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/ClassAdapter/DollarCalc.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/ClassAdapter/index.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,26 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPatterns/Factory/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="14" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPatterns/ProtoType/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Client.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DesignPatterns/ProtoType/Client.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -62,12 +38,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DesignPatterns/ProtoTypeOOP/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="155">
               <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DesignPatterns/ClassAdapter/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DollarCalc.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DesignPatterns/ClassAdapter/DollarCalc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="35" column="29" lean-forward="false" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+              <folding>
+                <element signature="e#388#627#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -162,7 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Ioc/Container.php" />
         <option value="$PROJECT_DIR$/Ioc/Traveller.php" />
         <option value="$PROJECT_DIR$/Ioc/index.php" />
         <option value="$PROJECT_DIR$/Ioc/Container.class.php" />
@@ -213,6 +210,7 @@
         <option value="$PROJECT_DIR$/DesignPatterns/ProtoTypeOOP/Management.php" />
         <option value="$PROJECT_DIR$/DesignPatterns/ProtoTypeOOP/Client.php" />
         <option value="$PROJECT_DIR$/DesignPatterns/ProtoTypeOOP/index.php" />
+        <option value="$PROJECT_DIR$/DesignPatterns/ClassAdapter/DollarCalc.php" />
       </list>
     </option>
   </component>
@@ -324,7 +322,7 @@
               <item name="php-learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="php-learn" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="DesignPatterns" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ProtoType" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ClassAdapter" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="php-learn" type="b2602c69:ProjectViewProjectNode" />
@@ -345,6 +343,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DesignPatterns/ClassAdapter" />
       <recent name="$PROJECT_DIR$/DesignPatterns/ProtoTypeOOP" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -465,12 +464,12 @@
       <workItem from="1505058456131" duration="34000" />
       <workItem from="1505058507993" duration="2394000" />
       <workItem from="1506441220415" duration="13000" />
-      <workItem from="1508679012709" duration="4664000" />
+      <workItem from="1508679012709" duration="5680000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49427000" />
+    <option name="totallyTimeSpent" value="50443000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -508,14 +507,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Factory/TrafficToolFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ModernPHP/Trait/MyTrait.php" />
     <entry file="file://$PROJECT_DIR$/ModernPHP/Generator/NumberGenerator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1034">
@@ -858,6 +849,24 @@
         <state relative-caret-position="155">
           <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/ClassAdapter/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/ClassAdapter/DollarCalc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="35" column="29" lean-forward="false" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+          <folding>
+            <element signature="e#388#627#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
