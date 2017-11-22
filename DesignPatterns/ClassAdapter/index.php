@@ -10,6 +10,6 @@
  * @link       https://songyichao.com
  */
 
-require_once __DIR__.'../../../vendor/autoload.php';
+require_once __DIR__ . '../../../vendor/autoload.php';
 
-$worker = new \DesignPatterns\ProtoTypeOOP\Client();
+$worker = new \DesignPatterns\ClassAdapter\Client();

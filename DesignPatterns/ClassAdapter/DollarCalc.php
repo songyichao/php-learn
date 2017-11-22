@@ -26,7 +26,7 @@ class DollarCalc
         $this->service = $service_now;
         $this->dollar = $this->product + $this->service;
 
-        return $this->requestTotal;
+        return $this->requestTotal();
     }
 
     public function requestTotal()
