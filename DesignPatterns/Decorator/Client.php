@@ -15,16 +15,25 @@ namespace DesignPatterns\Decorator;
 
 class Client
 {
-    private $request_now;
-    private $dollar_request;
+    private $basic_site;
 
     public function __construct()
     {
-        $this->request_now = new EuroAdapter();
-        $this->dollar_request = new DollarCalc();
-        $euro = '&#8364;';
-        echo 'Euro:' . $euro . $this->makeAdapterRequest($this->request_now) . PHP_EOL;
-        echo 'Dollar:$' . $this->makeDollarRequest($this->dollar_request);
+        $this->basic_site = new BasicSite();
+        $this->basic_site = $this->wrapComponent($this->basic_site);
+        $site_show = $this->basic_site->getSite();
+        $format = '<br/>&nbsp;&nbsp;<strong>Total= $';
+        $price = $this->basic_site->getPrice();
+        echo $site_show . $format . $price . '</strong>';
+    }
+
+    public function wrapComponent(IComponent $component)
+    {
+        $component = new Maintenance($component);
+        $component = new Video($component);
+        $component = new Database($component);
+
+        return $component;
     }
 
     public function makeAdapterRequest(ITarget $req)
