@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20d7eb20-3762-4e3e-b529-7fad35de59d5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/Decorator/BasicSite.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/Decorator/Database.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/Decorator/Maintenance.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/Decorator/Video.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/Client.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/Decorator.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/Female.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/Food.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/Hardware.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/IComponent.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/Male.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/ProgramLang.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/index.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/php-learn.iml" afterPath="$PROJECT_DIR$/.idea/php-learn.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/DesignPatterns/Decorator/Client.php" afterPath="$PROJECT_DIR$/DesignPatterns/Decorator/Client.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,6 +21,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileColors">
     <fileColor scope="Non-Project Files (Material Default)" color="415967" />
@@ -30,28 +39,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPatterns/ClassAdapter/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DollarCalc.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPatterns/ClassAdapter/DollarCalc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-              <folding>
-                <element signature="e#388#629#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DesignPatterns/Decorator/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="155">
@@ -61,98 +48,122 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Client.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DesignPatterns/Decorator/Client.php">
+      <file leaf-file-name="IComponent.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/IComponent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="26" column="57" lean-forward="false" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+            <state relative-caret-position="529">
+              <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Male.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/Male.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="498">
+              <caret line="45" column="30" lean-forward="false" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
               <folding>
-                <element signature="e#692#925#0#PHP" expanded="true" />
-                <marker date="1512401956857" expanded="true" signature="544:550" ph=" " />
-                <marker date="1512401956857" expanded="true" signature="550:556" ph=" " />
+                <element signature="e#325#456#0#PHP" expanded="true" />
+                <element signature="e#462#587#0#PHP" expanded="true" />
+                <element signature="e#593#706#0#PHP" expanded="true" />
+                <element signature="e#712#831#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IComponent.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPatterns/Decorator/IComponent.php">
+      <file leaf-file-name="Female.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/Female.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-              <folding />
+            <state relative-caret-position="433">
+              <caret line="38" column="30" lean-forward="false" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+              <folding>
+                <element signature="e#326#460#0#PHP" expanded="true" />
+                <element signature="e#466#591#0#PHP" expanded="true" />
+                <element signature="e#597#710#0#PHP" expanded="true" />
+                <element signature="e#841#964#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Decorator.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPatterns/Decorator/Decorator.php">
+        <entry file="file://$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/Decorator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasicSite.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPatterns/Decorator/BasicSite.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="465">
+              <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
               <folding>
-                <element signature="e#314#391#0#PHP" expanded="true" />
-                <element signature="e#397#507#0#PHP" expanded="true" />
-                <element signature="e#513#618#0#PHP" expanded="true" />
+                <element signature="e#338#419#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Maintenance.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPatterns/Decorator/Maintenance.php">
+      <file leaf-file-name="ProgramLang.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/ProgramLang.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-122">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="480">
+              <caret line="40" column="23" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="40" selection-end-column="23" />
               <folding>
-                <element signature="e#273#732#1#PHP" expanded="true" />
-                <element signature="e#316#410#0#PHP" expanded="true" />
-                <element signature="e#416#594#0#PHP" expanded="true" />
-                <element signature="e#600#730#0#PHP" expanded="true" />
-                <marker date="1512401275878" expanded="true" signature="515:521" ph=" " />
-                <marker date="1512401275878" expanded="true" signature="521:527" ph=" " />
+                <element signature="e#359#453#0#PHP" expanded="true" />
+                <element signature="e#906#1051#0#PHP" expanded="true" />
+                <marker date="1514218644537" expanded="true" signature="755:761" ph=" " />
+                <marker date="1514218644537" expanded="true" signature="761:767" ph=" " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Video.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPatterns/Decorator/Video.php">
+      <file leaf-file-name="Hardware.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/Hardware.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+            <state relative-caret-position="333">
+              <caret line="34" column="8" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="39" selection-end-column="23" />
               <folding>
-                <element signature="e#273#720#1#PHP" expanded="true" />
-                <element signature="e#310#404#0#PHP" expanded="true" />
-                <element signature="e#410#582#0#PHP" expanded="true" />
-                <element signature="e#588#718#0#PHP" expanded="true" />
-                <marker date="1512401412451" expanded="true" signature="509:515" ph=" " />
-                <marker date="1512401412451" expanded="true" signature="515:521" ph=" " />
+                <element signature="e#355#449#0#PHP" expanded="true" />
+                <element signature="e#877#1022#0#PHP" expanded="true" />
+                <marker date="1514218970960" expanded="true" signature="738:744" ph=" " />
+                <marker date="1514218970960" expanded="true" signature="744:750" ph=" " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Database.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPatterns/Decorator/Database.php">
+      <file leaf-file-name="Food.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/Food.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+            <state relative-caret-position="546">
+              <caret line="37" column="34" lean-forward="false" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
               <folding>
-                <element signature="e#312#406#0#PHP" expanded="true" />
-                <element signature="e#412#588#0#PHP" expanded="true" />
-                <marker date="1512401529487" expanded="true" signature="511:517" ph=" " />
-                <marker date="1512401529487" expanded="true" signature="517:523" ph=" " />
+                <element signature="e#347#441#0#PHP" expanded="true" />
+                <element signature="e#869#1006#0#PHP" expanded="true" />
+                <marker date="1514219206580" expanded="true" signature="737:743" ph=" " />
+                <marker date="1514219206580" expanded="true" signature="743:749" ph=" " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/Client.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="496">
+              <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+              <folding>
+                <element signature="e#615#964#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+              <folding>
+                <element signature="e#6#231#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -166,16 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ModernPHP/Filter/Filter.php" />
-        <option value="$PROJECT_DIR$/ModernPHP/Filter/Password.php" />
-        <option value="$PROJECT_DIR$/ModernPHP/Date/Date.php" />
-        <option value="$PROJECT_DIR$/ModernPHP/Pdo/Pdo.php" />
-        <option value="$PROJECT_DIR$/ModernPHP/File/File.php" />
-        <option value="$PROJECT_DIR$/DesignPatterns/GetSet/GetSet.php" />
-        <option value="$PROJECT_DIR$/DesignPatterns/Abstract/IAbstract.php" />
-        <option value="$PROJECT_DIR$/DesignPatterns/IAbstract/IAbstract.php" />
-        <option value="$PROJECT_DIR$/DesignPatterns/IAbstract/NorthRegion.php" />
-        <option value="$PROJECT_DIR$/DesignPatterns/IAbstract/WestRegion.php" />
         <option value="$PROJECT_DIR$/DesignPatterns/IAbstract/Client.php" />
         <option value="$PROJECT_DIR$/DesignPatterns/IAbstract/Sll.php" />
         <option value="$PROJECT_DIR$/DesignPatterns/IAbstract/lllll.php" />
@@ -217,6 +218,16 @@
         <option value="$PROJECT_DIR$/DesignPatterns/Decorator/Video.php" />
         <option value="$PROJECT_DIR$/DesignPatterns/Decorator/Database.php" />
         <option value="$PROJECT_DIR$/DesignPatterns/Decorator/Client.php" />
+        <option value="$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/IComponent.php" />
+        <option value="$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/Male.php" />
+        <option value="$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/Female.php" />
+        <option value="$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/Decorator.php" />
+        <option value="$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/ProgramLang.php" />
+        <option value="$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/Hardware.php" />
+        <option value="$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/Food.php" />
+        <option value="$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/Clitent.php" />
+        <option value="$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/Client.php" />
+        <option value="$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/index.php" />
       </list>
     </option>
   </component>
@@ -236,7 +247,11 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
@@ -311,6 +326,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -327,25 +343,19 @@
               <item name="php-learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="php-learn" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="DesignPatterns" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ClassAdapter" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="php-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php-learn" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="DesignPatterns" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Decorator" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="php-learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="php-learn" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="DesignPatterns" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ProtoTypeOOP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Decorator" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="MoreDecorator" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -354,13 +364,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ModernPHP/Trait" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator" />
       <recent name="$PROJECT_DIR$/DesignPatterns/Decorator" />
       <recent name="$PROJECT_DIR$/DesignPatterns/ClassAdapter" />
       <recent name="$PROJECT_DIR$/DesignPatterns/ProtoTypeOOP" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ModernPHP/Trait" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -484,28 +495,31 @@
       <workItem from="1511188278468" duration="2778000" />
       <workItem from="1511700876833" duration="1796000" />
       <workItem from="1512306108878" duration="621000" />
-      <workItem from="1512309580117" duration="2340000" />
+      <workItem from="1512309580117" duration="2596000" />
+      <workItem from="1513183956405" duration="207000" />
+      <workItem from="1514215254125" duration="85000" />
+      <workItem from="1514215354954" duration="4004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58799000" />
+    <option name="totallyTimeSpent" value="63351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2825465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29470673" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32552403" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -528,51 +542,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ModernPHP/Trait/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ModernPHP/Trait/Geocodeable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ModernPHP/Filter/Filter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Factory/Car.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ioc/Container.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="176" column="24" lean-forward="false" selection-start-line="176" selection-start-column="24" selection-end-line="176" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_static.php" />
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-    <entry file="file://$PROJECT_DIR$/Decorator/Fire.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
     <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
     <entry file="file://$PROJECT_DIR$/ModernPHP/Pdo/Pdo.php">
@@ -733,14 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1333">
           <caret line="67" column="20" lean-forward="false" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
-          <folding>
-            <element signature="e#523#594#0#PHP" expanded="true" />
-            <element signature="e#637#702#0#PHP" expanded="true" />
-            <element signature="e#748#811#0#PHP" expanded="true" />
-            <element signature="e#854#915#0#PHP" expanded="true" />
-            <element signature="e#971#1073#0#PHP" expanded="true" />
-            <element signature="e#1116#1196#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -748,10 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="837">
           <caret line="36" column="43" lean-forward="false" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="43" />
-          <folding>
-            <element signature="e#970#1073#0#PHP" expanded="true" />
-            <element signature="e#1079#1152#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -759,11 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1023">
           <caret line="42" column="33" lean-forward="false" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
-          <folding>
-            <element signature="e#1109#1279#0#PHP" expanded="true" />
-            <element signature="e#1285#1528#0#PHP" expanded="true" />
-            <element signature="e#1534#1728#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -771,7 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,10 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-          <folding>
-            <element signature="e#384#623#0#PHP" expanded="false" />
-            <element signature="e#629#736#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -790,7 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
           <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -798,9 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-          <folding>
-            <element signature="e#337#406#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -808,19 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="26" column="74" lean-forward="false" selection-start-line="26" selection-start-column="74" selection-end-line="26" selection-end-column="74" />
-          <folding>
-            <element signature="e#6#234#0#PHP" expanded="true" />
-            <element signature="e#687#789#0#PHP" expanded="true" />
-            <element signature="e#795#899#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesignPatterns/ClassAdapter/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -829,7 +759,7 @@
         <state relative-caret-position="589">
           <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
           <folding>
-            <element signature="e#388#629#0#PHP" expanded="true" />
+            <element signature="e#388#629#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -852,7 +782,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DesignPatterns/Decorator/Database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
+        <state relative-caret-position="434">
           <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
           <folding>
             <element signature="e#312#406#0#PHP" expanded="true" />
@@ -865,7 +795,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DesignPatterns/Decorator/Maintenance.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-122">
+        <state relative-caret-position="124">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="e#273#732#1#PHP" expanded="true" />
@@ -880,7 +810,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DesignPatterns/Decorator/Video.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
+        <state relative-caret-position="155">
           <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
           <folding>
             <element signature="e#273#720#1#PHP" expanded="true" />
@@ -893,17 +823,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DesignPatterns/Decorator/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DesignPatterns/Decorator/BasicSite.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
+        <state relative-caret-position="217">
           <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding>
             <element signature="e#314#391#0#PHP" expanded="true" />
@@ -915,12 +837,132 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DesignPatterns/Decorator/Client.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="26" column="57" lean-forward="false" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+        <state relative-caret-position="477">
+          <caret line="29" column="56" lean-forward="true" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
           <folding>
+            <element signature="e#319#686#0#PHP" expanded="true" />
             <element signature="e#692#925#0#PHP" expanded="true" />
             <marker date="1512401956857" expanded="true" signature="544:550" ph=" " />
             <marker date="1512401956857" expanded="true" signature="550:556" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/ClassAdapter/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Decorator/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/IComponent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/Male.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="45" column="30" lean-forward="false" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+          <folding>
+            <element signature="e#325#456#0#PHP" expanded="true" />
+            <element signature="e#462#587#0#PHP" expanded="true" />
+            <element signature="e#593#706#0#PHP" expanded="true" />
+            <element signature="e#712#831#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/Female.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="38" column="30" lean-forward="false" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+          <folding>
+            <element signature="e#326#460#0#PHP" expanded="true" />
+            <element signature="e#466#591#0#PHP" expanded="true" />
+            <element signature="e#597#710#0#PHP" expanded="true" />
+            <element signature="e#841#964#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/Decorator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding>
+            <element signature="e#338#419#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/ProgramLang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="40" column="23" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="40" selection-end-column="23" />
+          <folding>
+            <element signature="e#359#453#0#PHP" expanded="true" />
+            <element signature="e#906#1051#0#PHP" expanded="true" />
+            <marker date="1514218644537" expanded="true" signature="755:761" ph=" " />
+            <marker date="1514218644537" expanded="true" signature="761:767" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/Hardware.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="34" column="8" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="39" selection-end-column="23" />
+          <folding>
+            <element signature="e#355#449#0#PHP" expanded="true" />
+            <element signature="e#877#1022#0#PHP" expanded="true" />
+            <marker date="1514218970960" expanded="true" signature="738:744" ph=" " />
+            <marker date="1514218970960" expanded="true" signature="744:750" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/Food.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="37" column="34" lean-forward="false" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+          <folding>
+            <element signature="e#347#441#0#PHP" expanded="true" />
+            <element signature="e#869#1006#0#PHP" expanded="true" />
+            <marker date="1514219206580" expanded="true" signature="737:743" ph=" " />
+            <marker date="1514219206580" expanded="true" signature="743:749" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/Client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+          <folding>
+            <element signature="e#615#964#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Decorator/MoreDecorator/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="e#6#231#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
