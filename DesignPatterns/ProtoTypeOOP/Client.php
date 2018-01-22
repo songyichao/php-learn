@@ -1,6 +1,7 @@
 <?php
 /**
- * description
+ * 原型设计模式
+ * 解决的问题：创建一种组织结构，或创建某个原型对象的多个实例
  *
  * @category   Learn
  * @package    PSR

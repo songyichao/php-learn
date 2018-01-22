@@ -1,6 +1,7 @@
 <?php
 /**
- * description
+ * 装饰器设计模式
+ *
  *
  * @category   Learn
  * @package    PSR

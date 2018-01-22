@@ -1,6 +1,7 @@
 <?php
 /**
- * description
+ * 适配器模式
+ * 用于不同结构相同数据的处理
  *
  * @category   Learn
  * @package    PSR
