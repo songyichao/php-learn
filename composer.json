@@ -11,7 +11,8 @@
     "autoload": {
         "psr-4": {
             "Decorator\\": "Decorator/",
-            "DesignPatterns\\": "DesignPatterns/"
+            "DesignPatterns\\": "DesignPatterns/",
+            "Algorithm\\": "Algorithm/"
         }
     }
 }
