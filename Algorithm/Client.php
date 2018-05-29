@@ -43,6 +43,12 @@ class Client
         echo '插入排序' . PHP_EOL;
         $sort_arr = InsertSort::insertSort($arr);
         var_dump($sort_arr);
+        echo '希尔排序' . PHP_EOL;
+        $sort_arr = ShellSort::shellSort($arr);
+        var_dump($sort_arr);
+        echo '快速排序' . PHP_EOL;
+        $sort_arr = QuickSort::quickSort($arr);
+        var_dump($sort_arr);
     }
 
     public static function swap(&$arr, $i, $j)
